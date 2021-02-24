@@ -1,0 +1,5 @@
+title: Debugging IMP with Valgrind
+depends: [coding]
+description: >
+    This shows how to use Valgrind to find memory leaks and other programming
+    errors in IMP C++ code.
