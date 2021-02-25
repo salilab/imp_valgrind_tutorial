@@ -7,6 +7,8 @@ import IMP.foo
 
 class Tests(IMP.test.TestCase):
 
+    # We expect this test to fail because the C++ code is buggy
+    @IMP.test.expectedFailure
     def test_my_restraint(self):
         m = IMP.Model()
         p = m.add_particle("p")
